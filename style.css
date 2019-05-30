@@ -85,7 +85,7 @@ ul{
 }
 
 #menu ul li a:hover, #menu ul li a.active {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #C34FDB;
 }
