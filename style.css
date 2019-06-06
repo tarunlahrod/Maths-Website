@@ -108,3 +108,51 @@ ul{
     color: #629a59;
     text-align: justify;
 }
+
+.sidebar {
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #b314db;
+    font-size: 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #C34FDB;
+    -webkits-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#leftsidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    list-style-image: url(images/arrow.png);
+    padding-left: 10px;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #b314db;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
